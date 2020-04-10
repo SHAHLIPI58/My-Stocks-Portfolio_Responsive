@@ -18,7 +18,7 @@ public class StockDownloader extends AsyncTask<String, Void, String> {
 
     // My API KEY = pk_245cca82bab94c7b810ff14f707af946
     private final java.lang.String Url1 = "https://cloud.iexapis.com/stable/stock/";
-    private final java.lang.String Url2 = "/quote?token=pk_245cca82bab94c7b810ff14f707af946 ";
+    private final java.lang.String Url2 = "/quote?token=Your_API_KEY_HERE"; //Your_API_KEY_HERE can be generated from https://iexcloud.io/docs/api/
     private ArrayList<String> offlineContent = new ArrayList<>();
     private static final String TAG = "StockDownloader";
 
